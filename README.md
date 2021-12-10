@@ -5,7 +5,7 @@ Desafio da DIO:  Criando seu Primeiro Repositório no GitHub Para Compartilhar S
 
 Código criado para utilização junto a plataforma da Digital Innovation One
 
-<p align="center"><img src="./DIO.png" width="500"></p>
+<p align="center"><img src="./dremio-logo-dark.png" width="500"></p>
 
 ## Desafio GCP Dataproc
 
