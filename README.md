@@ -23,7 +23,7 @@ Dremio - open source Data-as-a-Service Platform (community edition).
 
 ### 1. Docker Pull Command
 
-Para criar a image do container, executar o comando:
+Para baixar a image do container, executar o comando:
 
 ``` bash
 docker pull dremio/dremio-oss 
