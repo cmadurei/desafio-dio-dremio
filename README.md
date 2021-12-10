@@ -17,22 +17,38 @@ Dremio torna muito simples executar consultas SQL diretamente no seu Data Lake n
 
 ---
 
-### Container do Docker
+## Container do Docker
 
 Dremio - open source Data-as-a-Service Platform (community edition).  
 
-### Entrega do Resultado
+### 1. Docker Pull Command
 
-1. Criar um repositório no GitHub.
-2. Criar um arquivo chamado ```resultado.txt```. Dentro desse arquivo, colocar as 10 palavras que mais são usadas no livro, de acordo com o resultado do Job.
-3. Inserir os arquivo ```resultado.txt``` e ```part-00000``` no repositório e informar na plataforma da Digital Innovation One.
+Para criar a image do container, executar o comando:
+
+``` bash
+docker pull dremio/dremio-oss 
+```
+
+### 2. Para subir o container (single node)
+
+O container ficará executando e o Dremio ficará disponível no seu browser de preferência no porta 9047:
+
+```bash
+docker run -p 9047:9047 -p 31010:31010 -p 45678:45678 dremio/dremio-oss
+```
+Assim, 
+
+```html
+http://localhost:9047
+```
+
+Estão inclusos e devidamente configurados:
+* Embedded Zookeeper
+* Master Coordinator
+* Executor
 
 ---
 
-### Considerações Finais
+## Missão Cumprida
+Se tudo estiver certo, você verá a seguinte tela de boas-vindas:
 
-NOTA: Se o Job mostrar um WARN de Interrupt, basta ignorar. Existe um bug no Hadoop que é conhecido. Isso não impacta no processamento.
-
-Qualquer outra dúvida, informação ou sugestão, fique a vontade para entrar em contato.
-
-marcelo@smarques.com
