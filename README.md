@@ -1,31 +1,25 @@
 # desafio-dio-dremio
 Desafio da DIO:  Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso
 
-# Digital Innovation One
-
-Código criado para utilização junto a plataforma da Digital Innovation One
+# Instalação do Dremio on premisse no Docker. 
 
 <p align="center"><img src="./dremio-logo-dark.png" width="500"></p>
 
-## Desafio GCP Dataproc
+## O que é o Dremio?
 
-O desafio faz parte do curso na plataforma da Digital Innovation One:
+Dremio é uma plataforma de dados como um serviço (Data-as-a-Service) que capacita os usuários para descobrir, curar, acelerar e compartilhar quaisquer dados a qualquer momento, independentemente da localização, volume ou estrutura. Use sua ferramenta de BI favorita, linguagem Python, R e outras ferramentas baseadas em SQL para acessar dados de qualquer fonte. Use Dremio para manter um catálogo central e pesquisável de todos os seus conjuntos de dados, crie e execute um ETL que funcione em seus dados, acelere consultas usando Data Reflections e misture dados entre fontes, incluindo sistemas que não suportam SQL, como ElasticSearch, MongoDB e S3.
 
-__*Criando um ecossitema Hadoop totalmente gerenciado com Google Cloud Platform*__
+Os fundadores da Dremio também são os co-criadores da Apache Arrow, uma plataforma para processamento colunar em memória. Apache Arrow é usada extensivamente pela Dremio e é núcleo para muitos outros projetos de código aberto. Leia mais sobre a origem e história do Apache Arrow: https://www.dremio.com/origin-history-of-apache-arrow/
 
-O desafio consiste em efetuar um processamento de dados utilizando o produto Dataproc do GCP. Esse processamento irá efetuar a contahem das palavras de um livro e informar quantas vezes cada palavra aparece no mesmo.
+__*Vantagem do Dremio*__
+
+Dremio torna muito simples executar consultas SQL diretamente no seu Data Lake na nuvem sem fazer cópias dos seus dados.
 
 ---
 
-### Etapas do Desafio
+### Container do Docker
 
-1. Criar um bucket no Cloud Storage
-1. Atualizar o arquivo ```contador.py``` com o nome do Bucket criado nas linhas que contém ```{SEU_BUCKET}```.
-1. Fazer o upload dos arquivos ```contador.py``` e ```livro.txt``` para o bucket criado (instruções abaixo)
-    - https://cloud.google.com/storage/docs/uploading-objects
-
-1. Utilizar o código em um cluster Dataproc, executando um Job do tipo PySpark chamando ```gs://{SEU_BUCKET}/contador.py```
-1. O Job irá gerar uma pasta no bucket chamada ```resultado```. Dentro dessa pasta o arquivo ```part-00000``` irá conter a lista de palavras e quantas vezes ela é repetida em todo o livro.
+Dremio - open source Data-as-a-Service Platform (community edition).  
 
 ### Entrega do Resultado
 
