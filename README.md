@@ -1,7 +1,7 @@
 # desafio-dio-dremio
 Desafio da DIO:  Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso
 
-# Instalação do Dremio on premisse no Docker. 
+# Instalação do Dremio on premisse usando um container do Docker. 
 
 <p align="center"><img src="./dremio-logo-dark.png" width="500"></p>
 
