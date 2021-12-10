@@ -52,4 +52,4 @@ Estão inclusos e devidamente configurados:
 ## Missão Cumprida
 Se tudo estiver certo, você verá a seguinte tela de boas-vindas:
 
-<p align="center"><img src="./dremio-logo-dark.png" width="500"></p>
+<p align="center"><img src="./dremio_welcome.png" width="500"></p>
