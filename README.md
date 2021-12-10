@@ -31,7 +31,7 @@ docker pull dremio/dremio-oss
 
 ### 2. Para subir o container (single node)
 
-O container ficará executando e o Dremio ficará disponível no seu browser de preferência no porta 9047:
+O container ficará executando e o Dremio ficará disponível no seu browser de preferência na porta 9047:
 
 ```bash
 docker run -p 9047:9047 -p 31010:31010 -p 45678:45678 dremio/dremio-oss
@@ -52,3 +52,4 @@ Estão inclusos e devidamente configurados:
 ## Missão Cumprida
 Se tudo estiver certo, você verá a seguinte tela de boas-vindas:
 
+<p align="center"><img src="./dremio-logo-dark.png" width="500"></p>
